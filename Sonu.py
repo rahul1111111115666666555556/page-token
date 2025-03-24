@@ -9,28 +9,21 @@ init(autoreset=True)
 # Logo function to display at the beginning
 def show_logo():
     logo = """
-\033[1;36m $$$$$$\   $$$$$$\  $$\   $$\ $$\   $$\ 
-\033[1;36m$$  __$$\ $$  __$$\ $$$\  $$ |$$ |  $$ |
-\033[1;34m$$ /  \__|$$ /  $$ |$$$$\ $$ |$$ |  $$ |
-\033[1;34m\$$$$$$\  $$ |  $$ |$$ $$\$$ |$$ |  $$ |
-\033[1;36m \____$$\ $$ |  $$ |$$ \$$$$ |$$ |  $$ |
-\033[1;32m$$\   $$ |$$ |  $$ |$$ |\$$$ |$$ |  $$ |
-\033[1;31m\$$$$$$  | $$$$$$  |$$ | \$$ |\$$$$$$  |
-\033[1;33m \______/  \______/ \__|  \__| \______/ 
-
-
-
-
-
-
-
+\033[1;36m$$$$$$$\   $$$$$$\     $$$$$\ 
+\033[1;36m$$  __$$\ $$  __$$\    \__$$ |
+\033[1;34m$$ |  $$ |$$ /  $$ |      $$ |
+\033[1;34m$$$$$$$  |$$$$$$$$ |      $$ |
+\033[1;36m$$  __$$< $$  __$$ |$$\   $$ |
+\033[1;32m$$ |  $$ |$$ |  $$ |$$ |  $$ |
+\033[1;33m$$ |  $$ |$$ |  $$ |\$$$$$$  |
+\033[1;33m\__|  \__|\__|  \__| \______/ 
  
-         
+
           
           
 ╔═════════════════════════════════════════════════════════════╗
 ║ \033[1;31mTOOLS      : ACTIVE GROUP UID 
-║ \033[1;34mGitHub     : https://github.com/Sisodiaji/
+║ \033[1;34mGitHub     : https://github.com/Sisodiaji/143
 ║ \033[1;32mWHATSAPP   : +917500170115
 ║ \033[1;82mTOOLS NAME : PAGE TOKEN EXTRACTOR
 ╚═════════════════════════════════════════════════════════════╝
@@ -40,7 +33,7 @@ def show_logo():
 
     # Display the message that you want users to see
     print(Fore.CYAN + "Raj Thakur Sir mai aapka tools use kar rha hu!")
-    print(Fore.CYAN + "For support or queries, WhatsApp: +917500170115\n")
+    print(Fore.CYAN + "For support or queries, WhatsApp: +919695003501\n")
 
 # Function to fetch and list only active Messenger Groups for a given Facebook Access Token
 def get_active_messenger_groups(access_token):
